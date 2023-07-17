@@ -20,35 +20,16 @@ if email.isValid(for: .Email) {
 ## Validation Types
 The ValidationType enum defines different types of validations that can be performed.
 
-### Email
-Validates the string as an email address.
-
-### Password
-Validates the string as a password.
-
-### CreditCard
-Validates the string as a credit card number.
-
-### IdentityNumber
-Validates the string as a Turkish identity number.
-
-### Name
-Validates the string as a name.
-
-### URL
-Validates the string as a URL.
-
-### PhoneNumber
-Validates the string as a phone number.
-
-### PostalCode
-Validates the string as a postal code.
-
-### IPv4Address
-Validates the string as an IPv4 address.
-
-### ISBN
-Validates the string as an ISBN.
+- `Email`: Validates the string as an email address.
+- `Password`: Validates the string as a password.
+- `CreditCard`: Validates the string as a credit card number.
+- `IdentityNumber`: Validates the string as a Turkish identity number.
+- `Name`: Validates the string as a name.
+- `URL`: Validates the string as a URL.
+- `PhoneNumber`: Validates the string as a phone number.
+- `PostalCode`: Validates the string as a postal code.
+- `IPv4Address`: Validates the string as an IPv4 address.
+- `ISBN`: Validates the string as an ISBN.
 
 Note: For the URL, PhoneNumber, PostalCode, IPv4Address, and ISBN validation types, you need to implement the specific validation logic inside the isValid(for:) method.
 
