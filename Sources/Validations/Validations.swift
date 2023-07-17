@@ -162,7 +162,7 @@ public extension String {
         - Implement your ISBN validation logic here.
         - Returns `true` if the string represents a valid ISBN, `false` otherwise.
      */
-    func isValid(for type: ValidationType) -> Bool {
+    public func isValid(for type: ValidationType) -> Bool {
         switch type {
         case .Email:
             let emailRegex = "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
